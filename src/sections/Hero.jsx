@@ -54,7 +54,7 @@ export default function Hero() {
                   rounded-full border-[6px] border-[#ee9cb0]
                   overflow-hidden shadow-xl
                   transition-all duration-500
-                  ${isFive ? "scale-125 z-20" : "hover:scale-110"}
+                  hover:scale-110
                 `}
               >
                 <img

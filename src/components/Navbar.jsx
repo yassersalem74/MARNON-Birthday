@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Navbar() {
   const links = [
+    { name: "Moments", href: "#moments" },
     { name: "Story", href: "#story" },
     { name: "Gallery", href: "#gallery" },
-    { name: "Moments", href: "#moments" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -90,7 +90,7 @@ export default function Navbar() {
         <div className="navbar-end">
           <a
             href="https://birthday-party-lovat.vercel.app/"
-            className="btn border-none text-white bg-gradient-to-r from-[#eba9b9] to-[#ee9cb0] hover:scale-105 hover:shadow-lg transition-all duration-300 rounded-xl"
+            className="btn border-none text-white bg-gradient-to-r from-[#ffd4de] to-[#ee9cb0] hover:scale-105 hover:shadow-lg transition-all duration-300 rounded-xl"
           >
             Surprise 🎁
           </a>

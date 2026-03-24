@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import Hero from "./sections/Hero";
-import { Route, Routes } from "react-router";
+import Moments from "./sections/Moments";
 
 export default function App() {
   const [navHeight, setNavHeight] = useState(0);
@@ -20,6 +20,7 @@ export default function App() {
       <main style={{ paddingTop: navHeight }} className="min-h-screen bg-white">
         <ScrollToTop />
         <Hero />
+        <Moments />
        
       </main>
     </div>
