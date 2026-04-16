@@ -5,7 +5,6 @@ export default function Navbar() {
     { name: "Moments", href: "#moments" },
     { name: "Story", href: "#story" },
     { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
   ];
 
   return (

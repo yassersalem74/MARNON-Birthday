@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 import Hero from "./sections/Hero";
 import Moments from "./sections/Moments";
+import Story from "./sections/Story";
+import Gallery from "./components/Gallery";
 
 export default function App() {
   const [navHeight, setNavHeight] = useState(0);
@@ -21,7 +23,8 @@ export default function App() {
         <ScrollToTop />
         <Hero />
         <Moments />
-       
+        <Story />
+        <Gallery />
       </main>
     </div>
   );

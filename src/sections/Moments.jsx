@@ -66,7 +66,7 @@ export default function Moments() {
             color: "#6c8e8e",
           }}
         >
-          أجمل لحظات 💖
+          Best Moments 💖
         </h2>
 
         {/* GRID */}
